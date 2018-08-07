@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item  android:id="@+id/payment"
+        android:title="Item 1"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_send"/>
+
+    <item  android:id="@+id/cancelOption"
+        android:title="Item 1"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    <item  android:id="@+id/add"
+        android:title="Stok Kartı Ekle"
+        android:icon="@android:drawable/ic_menu_add"/>
+
+    <item android:id="@+id/liste"
+        android:title="Ürün Listesi" />
+
+    <item android:id="@+id/hesabim"
+        android:title="Hesabım" />
+</menu>
